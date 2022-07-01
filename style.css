@@ -24,6 +24,66 @@ body {
     background: var(--color1);
     color: var(--color2);
 }
+nav {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10px 20px;
+}
+nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.header {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 30px auto;
+}
+.header-left-container h3 {
+    color: var(--color3);
+    font-size: 1.8rem;
+}
+h1 {
+    font-size: 5rem;
+}
+.header-right {
+   width: 50%;
+}
+#modem {
+    width: 100%;
+    margin: 0 auto;
+}
+.infos {
+    display: grid;
+    grid-template-columns: 33% 67%;
+    background: var(--color4);
+    border-radius: 5px;
+}
+.btn-container {
+}
+button {
+    background: var(--color3);
+    color: var(--color2);
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 0;
+    margin: 8px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    display: block;
+}
+.investors {
+    display: grid;
+    align-items: center;
+    height: 80%;
+}
+.img-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.img-container img {
+    height: 60px;
+}
 
 
 
